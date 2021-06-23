@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+
+
+
+<h1> Calculator </h1>
+<div class="calculator">
+    <form name="form">
+
+
+        <input id="calc" type="text" name="answer">
+
+        <input type="button" id="a1" value="1" onclick="form.answer.value += '1' ">
+        <input type="button" id="a2" value="2" onclick="form.answer.value += '2' ">
+        <input type="button" id="a3" value="3" onclick="form.answer.value += '3' ">
+        <input type="button" id="a4" value="+" onclick="form.answer.value += '+' ">
+
+
+        <input type="button" id="b1" value="4" onclick="form.answer.value += '4' ">
+        <input type="button" id="b2" value="5" onclick="form.answer.value += '5' ">
+        <input type="button" id="b3" value="6" onclick="form.answer.value += '6' ">
+        <input type="button" id="b4" value="-" onclick="form.answer.value += '-' ">
+
+
+
+        <input type="button" id="c1" value="7" onclick="form.answer.value += '7' ">
+        <input type="button" id="c2" value="8" onclick="form.answer.value += '8' ">
+        <input type="button" id="c3" value="9" onclick="form.answer.value += '9' ">
+        <input type="button" id="c4" value="*" onclick="form.answer.value += '*' ">
+
+
+
+        <input type="button" id="d1" value="/" onclick="form.answer.value += '/' ">
+        <input type="button" id="d2" value="0" onclick="form.answer.value += '0' ">
+        <input type="button" id="d3" value="." onclick="form.answer.value += '.' ">
+
+        <input type="button" id="d4" value="=" onclick="form.answer.value = eval(form.answer.value) ">
+
+        <input type="button" value="C" onclick="form.answer.value = ' ' " id="clear">
+
+
+
+
+    </form>
+</div>
+</body>
+
+</html>
